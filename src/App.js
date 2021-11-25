@@ -13,7 +13,7 @@ function App() {
     setError(null);
 
     try {
-      const res = await fetch("https://swapi.dev/api/fils");
+      const res = await fetch("https://swapi.dev/api/films");
       if (!res.ok) {
         throw new Error("Something went wrong, buddy");
       }
